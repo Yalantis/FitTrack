@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FitTrack_Example' do
+  pod 'FitTrack', :path => '../'
+
+  target 'FitTrack_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
