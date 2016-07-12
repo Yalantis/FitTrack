@@ -1,0 +1,6 @@
+framework module FitTrack {
+  umbrella header "FitTrack-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,11 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'FitTrack_Example' do
+target 'FitTrack_Example', :exclusive => true do
   pod 'FitTrack', :path => '../'
-
-  target 'FitTrack_Tests' do
-    inherit! :search_paths
-
-    
-  end
+  
 end
+
+target 'FitTrack_Tests', :exclusive => true do
+  pod 'FitTrack', :path => '../'
+  
+end
+

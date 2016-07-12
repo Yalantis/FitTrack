@@ -1,0 +1,14 @@
+PODS:
+  - FitTrack (0.1.0)
+
+DEPENDENCIES:
+  - FitTrack (from `../`)
+
+EXTERNAL SOURCES:
+  FitTrack:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FitTrack: 10834979ad0611e103cee28ed491dd627f0f97dc
+
+COCOAPODS: 0.39.0
