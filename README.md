@@ -9,19 +9,19 @@ Concept of a fitness app.
 
 Check this <a href="https://dribbble.com/shots/2337201-Fitness-App-Prototype">project on dribbble</a>.
 
-##Requirements
+## Requirements
 - iOS 9.0+
 - Xcode 7
 - Swift 2
 
-##Installing with [CocoaPods](https://cocoapods.org)
+## Installing with [CocoaPods](https://cocoapods.org)
 
 ```ruby
 use_frameworks!
 pod ‘FitTrack’, '~> 0.1.0’
 ```
 
-##Usage
+## Usage
 
 At first, import FitTrack:
 ```swift
